@@ -1,6 +1,6 @@
 <?php
 /* Set e-mail recipient */
-$myemail  = "you@domain.com";
+$myemail  = "Mpompilus@outlook.com";
 
 /* Check all form inputs using check_input function */
 $yourname = check_input($_POST['yourname'], "Enter your name");
@@ -45,7 +45,7 @@ End of message
 mail($myemail, $subject, $message);
 
 /* Redirect visitor to the thank you page */
-header('Location: thanks.htm');
+header('Location: thanks.html');
 exit();
 
 /* Functions we used */

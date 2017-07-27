@@ -264,7 +264,8 @@ background-color: transparent;
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
-  margin-bottom: 50px;
+  height: 100vh;    
+  margin-bottom: 80px;  
 }
 .intro-header .site-heading,
 .intro-header .post-heading,

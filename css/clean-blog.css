@@ -193,6 +193,46 @@ hr.small {
     color: black;
     }  
 }
+.aloha{
+font-weight: 1000;
+color: #FF7F57;    
+}
+.front{
+color:#1934B2;     
+}
+.moses{
+background: -webkit-linear-gradient(#FF7F57, #1934B2, #7EB24F); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#FF7F57, #1934B2, #7EB24F); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#FF7F57, #1934B2, #7EB24F); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#FF7F57, #1934B2, #7EB24F); /* Standard syntax (must be last) */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -o-background-clip: text;
+    -o-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;    
+}
+.code{
+color: #7EB24F;    
+}
+     .Work{
+margin-top: 40px;         
+     }     
+.sr-only{
+padding: 5px;
+border:1px solid;
+background-color: white;
+     }     
+     .workt{
+padding: 100px; 0 150px;
+    background-color: transparent;
+    text-align: center;
+display: block;         
+position: relative;
+top: 30px;
+ border: 1px solid black;
+    border-radius: 6px;        
+     }     
 .post-preview > a {
   color: #333333;
 }

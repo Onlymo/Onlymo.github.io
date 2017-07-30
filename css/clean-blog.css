@@ -1,9 +1,13 @@
-
+/*!
+ * Start Bootstrap - Clean Blog v3.3.7+1 (http://startbootstrap.com/template-overviews/clean-blog)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
 /* Refence */
 /*
 1.Basic style : *
 2.Navbar: navbar-custom
-
+*/
 
 *{
 margin: 0;
@@ -17,9 +21,8 @@ html{
 body {
   font-family: 'Lora', 'Times New Roman', serif;
   font-size: 20px;
-  color: #333333;
-  overflow-x: hidden;
-  background-color: #FF7F57;	
+    overflow-x: hidden;
+background-color: #FF7F57;
 }
 p {
   line-height: 1.5;
@@ -316,10 +319,12 @@ margin: 40px;
      }     
      
 .Quotes{
-color: #1934B2;
-text-align:center;	
+color:#1934B2;
+text-align: center;    
      }     
-             
+     
+    
+     
 .section-heading {
   font-size: 36px;
   margin-top: 60px;

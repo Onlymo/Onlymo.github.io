@@ -1,10 +1,4 @@
-/*!
- * Start Bootstrap - Clean Blog v3.3.7+1 (http://startbootstrap.com/template-overviews/clean-blog)
- * Copyright 2013-2017 Start Bootstrap
- * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
- */
-/* Refence */
-/*
+
 1.Basic style : *
 2.Navbar: navbar-custom
 */
@@ -100,9 +94,29 @@ hr.small {
 }    
     
 
+/* Navbar */
+
+.navbar-default{
+background-color: transparent;
+border-color: transparent;
+color: white;
+}
+
+.navbar-default .navbar-brand {
+    color: #7EB24F;
+}
+
+.navbar-nav{
+margin-right: 2px;
     
-    
+}
   
+.navbar-default .navbar-nav>li>a {
+    color: white;
+}
+
+@media(max-width:575px).navbar-brand{
+margin-top:40px;} 
 
 .intro-header {
 display: flex;

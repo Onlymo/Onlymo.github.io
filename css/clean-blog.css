@@ -1,7 +1,13 @@
-
+/*!
+ * Start Bootstrap - Clean Blog v3.3.7+1 (http://startbootstrap.com/template-overviews/clean-blog)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+/* Refence */
+/*
 1.Basic style : *
 2.Navbar: navbar-custom
-
+*/
 
 *{
 margin: 0;
@@ -769,22 +775,22 @@ figure.effect-milo:hover p {
 	transform: translate3d(0,0,0);
 }
 a:link {
-    color: green;
+    color:#7EB24F;
     background-color: transparent;
     text-decoration: none;
 }
 a:visited {
-    color: pink;
+    color:#1934B2;
     background-color: transparent;
     text-decoration: none;
 }
 a:hover {
-    color: mediumvioletred;
+    color: #FF7F57;
     background-color: transparent;
     text-decoration: underline;
 }
 a:active {
-    color: yellow;
+    color: #7EB24F;
     background-color: transparent;
     text-decoration: underline;
 }

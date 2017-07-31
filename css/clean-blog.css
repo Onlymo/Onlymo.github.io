@@ -96,24 +96,6 @@ hr.small {
 
 /* Navbar */
 
-.navbar-default{
-background-color: transparent;
-border-color: transparent;
-color: white;
-}
-
-.navbar-default .navbar-brand {
-    color: #7EB24F;
-}
-
-.navbar-nav{
-margin-right: 2px;
-    
-}
-  
-.navbar-default .navbar-nav>li>a {
-    color: white;
-}
 
 
 

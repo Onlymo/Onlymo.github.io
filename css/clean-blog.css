@@ -115,8 +115,7 @@ margin-right: 2px;
     color: white;
 }
 
-@media(max-width:575px).navbar-brand{
-margin-top:40px;} 
+
 
 .intro-header {
 display: flex;

@@ -795,6 +795,15 @@ top: 1370px;
 left: 10px;    
 }
 
+
+/* JFK */
+
+.W-text{
+padding:10px;	
+background-color: antiquewhite;	
+}
+
+
 /* Responsive */
 
 @media only screen and (max-width: 768px){

@@ -92,7 +92,7 @@ hr.small {
 
 
 .intro-header2{
-    background: url(/img/Johna.jpg) no-repeat center top;	
+    background: url(../img/Johna.jpg) no-repeat center top;	
      background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;

@@ -91,7 +91,8 @@ hr.small {
 
 
 
-.intro-header {
+.intro-header2{
+    background: url(/img/Johna.jpg) no-repeat center top;	
      background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -100,6 +101,66 @@ width:100%;
 min-height: 550px;
 }
  
+.intro-header3{
+    background: url(img/Freshman2.jpg) no-repeat center top;	
+     background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+width:100%;	
+min-height: 550px;
+}
+
+.intro-header4{
+    background: url(img/Samurai.jpg) no-repeat center top;	
+     background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+width:100%;	
+min-height: 550px;
+}
+
+.intro-header5{
+    background: url(img/Johna.jpg) no-repeat center top;	
+     background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+width:100%;	
+min-height: 550px;
+}
+
+.intro-header6{
+    background: url(img/Johna.jpg) no-repeat center top;	
+     background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+width:100%;	
+min-height: 550px;
+}
+
+.intro-header7{
+    background: url(img/Johna.jpg) no-repeat center top;	
+     background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+width:100%;	
+min-height: 550px;
+}
+
+.intro-header8{
+    background: url(img/Johna.jpg) no-repeat center top;	
+     background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+width:100%;	
+min-height: 550px;
+}
+
 .intro-header .site-heading,
 .intro-header .post-heading,
 .intro-header .page-heading {

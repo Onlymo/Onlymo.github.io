@@ -88,78 +88,22 @@ hr.small {
 
 /* Navbar */
 
-
-
-
-.intro-header2{
-    background: url(../img/Johna.jpg) no-repeat center top;	
-     background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-width:80%;	
-height:80%;
-}
- 
-.intro-header3{
-    background: url(img/Freshman2.jpg) no-repeat center top;	
-     background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-width:100%;	
-min-height: 550px;
+ .intro-header {
+display: flex;
+  background-color: #777777;
+  background: no-repeat center center;
+  background-attachment: scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+height: 100vh;
+width: 100%;    
+  margin-bottom: 80px; 
+overflow-x: hidden;
 }
 
-.intro-header4{
-    background: url(img/Samurai.jpg) no-repeat center top;	
-     background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-width:100%;	
-min-height: 550px;
-}
 
-.intro-header5{
-    background: url(img/Johna.jpg) no-repeat center top;	
-     background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-width:100%;	
-min-height: 550px;
-}
-
-.intro-header6{
-    background: url(img/Johna.jpg) no-repeat center top;	
-     background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-width:100%;	
-min-height: 550px;
-}
-
-.intro-header7{
-    background: url(img/Johna.jpg) no-repeat center top;	
-     background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-width:100%;	
-min-height: 550px;
-}
-
-.intro-header8{
-    background: url(img/Johna.jpg) no-repeat center top;	
-     background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-width:100%;	
-min-height: 550px;
-}
 
 .intro-header .site-heading,
 .intro-header .post-heading,

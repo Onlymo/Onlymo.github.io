@@ -215,6 +215,19 @@ color: #FF7F57;
 color:#1934B2;     
 }
 
+header.masthead {
+  text-align: center;
+  color: white;
+  background-image: url("img/Johna1.jpg");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; 
+}
+
 .moses{
 background: -webkit-linear-gradient(#FF7F57, #1934B2, #7EB24F); /* For Safari 5.1 to 6.0 */
     background: -o-linear-gradient(#FF7F57, #1934B2, #7EB24F); /* For Opera 11.1 to 12.0 */

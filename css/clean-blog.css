@@ -181,6 +181,10 @@ overflow-x: hidden;
 }
 
 
+.hideme{
+    opacity:0;
+}
+
 .Jfk img{
 width: 100%;
 height: auto;

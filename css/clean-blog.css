@@ -267,6 +267,7 @@ color: #1934B2;
      }
      .workt a:hover a:focus{
 background-color: green;
+   text-decoration: line-through;	     
      } 
      
      @media (max-width: 575px) {

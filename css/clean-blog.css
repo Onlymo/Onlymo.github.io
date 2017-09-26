@@ -698,3 +698,11 @@ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
 ::-webkit-scrollbar-thumb:window-inactive {
   background: rgba(0,0,255,0.1); 
 }
+
+@media (max-width:1050px){
+    ::-webkit-scrollbar {
+    display: none;
+}
+  }
+
+  }

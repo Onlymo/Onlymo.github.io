@@ -410,6 +410,21 @@ list-style: none;
   top: 489.528px;
   z-index: 160;
 }
+.MOSES{
+color: #ffcccc;
+}
+
+.MOSES:hover{
+color: #ffe6e6;  
+}
+
+.Links{
+ color:#cc0000; 
+}
+
+.Links:hover {
+color:#ff3333;  
+}
 .BG {
   background-color: rgb(255, 255, 255);
   position: absolute;

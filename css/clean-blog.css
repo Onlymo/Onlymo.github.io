@@ -8,7 +8,7 @@ body,html {
   font-family: 'Lora', 'Times New Roman', serif;
   font-size: 20px;
   overflow-x: hidden;
-  width: 100%;
+  width: auto;
   height: 100%;
 }
 
@@ -381,8 +381,12 @@ list-style: none;
     position: relative;
     top: 30px;
     margin: 25px;
-    color: #1934B2;
+    color: #4d0000;
     text-decoration: line-through;
+    clear: right;
+}
+.workt:hover{
+color: #990000;
 }
 
 .→ {
@@ -395,20 +399,6 @@ list-style: none;
   left: 1380.187px;
   top: 907.15px;
   z-index: 162;
-}
-.WORKS {
-  font-size: 41.721px;
-  font-family: "Myriad Pro";
-  color: rgba(237, 224, 223, 0.502);
-  line-height: 0.246;
-  text-align: center;
-  -moz-transform: matrix( 3.34065126284431,0,0,3.18245672872696,0,0);
-  -webkit-transform: matrix( 3.34065126284431,0,0,3.18245672872696,0,0);
-  -ms-transform: matrix( 3.34065126284431,0,0,3.18245672872696,0,0);
-  position: absolute;
-  left: 729.034px;
-  top: 489.528px;
-  z-index: 160;
 }
 .MOSES{
 color: #ffcccc;
@@ -424,6 +414,23 @@ color: #ffe6e6;
 
 .Links:hover {
 color:#ff3333;  
+
+}
+
+
+.WORKS {
+  font-size: 41.721px;
+  font-family: "Myriad Pro";
+  color: rgba(237, 224, 223, 0.502);
+  line-height: 0.246;
+  text-align: center;
+  -moz-transform: matrix( 3.34065126284431,0,0,3.18245672872696,0,0);
+  -webkit-transform: matrix( 3.34065126284431,0,0,3.18245672872696,0,0);
+  -ms-transform: matrix( 3.34065126284431,0,0,3.18245672872696,0,0);
+  position: absolute;
+  left: 729.034px;
+  top: 489.528px;
+  z-index: 160;
 }
 .BG {
   background-color: rgb(255, 255, 255);
@@ -442,7 +449,10 @@ color:#ff3333;
   background-position: center;
   background-size: cover;
   height: 100%;
+
 }
+
+
 
 .Fr2{
 background-image: url("../images/Fmx.png");
@@ -509,7 +519,7 @@ color: white;
 }
 
 .Gmail{
-background-image: url("../images/greenmail.jpg");  
+background-image: url("../images/envelope.png");  
 background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -524,8 +534,11 @@ color: white;
 
 .S1{
 text-align: center;
-color: #33ccff;
+color: #800000;
+}
 
+.S1:hover{
+color:#cc0000;   
 }
 
 @media (max-width:500px){
@@ -571,7 +584,7 @@ color: wheat;
 
 .sidebar{
 position: fixed;
-width: 105px;
+width: 7%;
 height: 100%;
 background-color: transparent;
 }
@@ -615,6 +628,13 @@ font-size: 34px;
         font-size: 18px;
     }
 }
+
+
+.imgContainer{
+    float:left;
+}
+
+   
 
 .Text3{
 text-align:center;
@@ -721,3 +741,16 @@ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
   }
 
   }
+
+  .transition {
+    -webkit-transform: scale(1.6); 
+    -moz-transform: scale(1.6);
+    -o-transform: scale(1.6);
+    transform: scale(1.6);
+}
+#content {
+  -webkit-transition: all .4s ease-in-out;
+  -moz-transition: all .4s ease-in-out;
+  -o-transition: all .4s ease-in-out;
+  -ms-transition: all .4s ease-in-out;
+}

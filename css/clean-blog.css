@@ -28,11 +28,11 @@ h6 {
   font-weight: 800;
 }
 a {
-  color: #333333;
+  color: #00cca3;
 }
 a:hover,
 a:focus {
-  color:#bfbfbf;
+  color:#08d3aa;
   text-decoration: none;
 }
 
@@ -294,6 +294,150 @@ list-style: none;
   top: 572.998px;
   z-index: 171;
 }
+
+#headerwrap {
+  background: url(../images/smoke.jpg) no-repeat center top;
+  margin-top: -50px;
+  padding-top:120px;
+  text-align:center;
+  background-attachment: relative;
+  background-position: center center;
+  min-height: 650px;
+  width: 100%;
+  
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#headerwrap h1 {
+  color:#ffffff;
+  margin-top: 90px;
+  padding-bottom: 30px;
+  letter-spacing: 8px;
+  font-size: 100px;
+  font-weight: bold;
+  text-shadow: 2px 2px 2px #000;
+}
+
+#headerwrap p {
+  color:#ffffff;
+  font-size: 40px;
+  font-weight: 400;
+  text-align: center;
+  line-height: 40px;
+  letter-spacing: 3px;
+  margin-left: 15px;
+  text-shadow: 1px 1px 1px #000;
+}
+
+.Icenter{
+  margin-top:100px ;
+}
+
+@media (min-width: 576px) {
+    .Icenter{
+  margin-top:60px ;
+}
+ }
+
+@media (min-width: 768px) {
+    .Icenter{
+  margin-top:80px ;
+}
+ }
+
+@media (min-width: 992px) {
+    .Icenter{
+  margin-top:160px ;
+}
+ }
+
+
+#greywrap {
+  background: #f5f5f5;
+  margin-top: 0px;
+  padding-top: 40px;
+  border-bottom: 1px solid #ddd;
+  text-align: center;
+}
+
+#greywrap .callout {
+  margin-bottom: 20px;
+}
+
+#greywrap p {
+  margin-left: 30px;
+  margin-right: 30px;
+  letter-spacing: 1px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+#greywrap .icon {
+  font-size: 60px;
+  line-height: 30px;
+  margin-bottom: 10px;
+}
+
+.section-divider {
+    z-index: 999;
+    width: 100%;
+    display: table;
+    max-height: 250px;
+    border-bottom: 2px solid #E6EAED;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    padding-top: 30px;
+    padding-bottom: 70px;
+   
+
+
+    background-position: center center;
+
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    background-attachment: relative;
+    
+    text-align: center;
+}
+
+.textdivider h1 {
+  padding-top: 70px;
+  color: white;
+  font-size: 40px;
+}
+
+.textdivider p {
+  color: white;
+  font-size: 25px;
+}
+
+
+/* Section Dividers Backgrounds */
+
+.divider1 {
+  background-image: url('../images/Glitch.jpg')
+
+}
+
+
 .MANUEL {
   font-size: 21.48px;
   font-family: "Myriad Pro";
@@ -417,6 +561,143 @@ color:#ff3333;
 
 }
 
+.RoMOSES {
+    color: #75821f;
+}
+
+    .RoMOSES:hover {
+        color: #acb285;
+    }
+
+
+
+.RoLinks {
+    color: #bad21c;
+}
+
+    .RoLinks:hover {
+        color: #d3f013;
+    }
+
+.FrMOSES {
+color:#aeb4a8; 
+}
+
+
+.FrMOSES:hover{
+color: #c9cdc5;
+}
+
+
+
+.FrLinks{
+color: #275970;
+}
+
+    .FrLinks:hover
+    color: #275970;  
+    }
+
+
+
+.MaMOSES{
+color:#868686;   
+}
+
+.MaMOSES:hover{
+color:#b8b8b8;  
+}
+
+.MaLinks{
+color:#ffe822; 
+}
+
+.MaLinks:hover{
+color:#ffe822;   
+}
+
+.YoMOSES{
+color:#fad622;   
+}
+
+.YoMOSES:hover{
+color: #ffd500;
+}
+
+.YoLinks{
+color: black;  
+}
+
+.YoLinks:hover{
+color: black;  
+}
+
+.JfMOSES{
+ color:#1560bb;  
+}
+
+.JfMOSES:hover{
+color:#0f6bda; 
+}
+
+
+
+.container{
+width: 100%;
+display: block;
+
+
+}
+
+
+#container {
+  height: 100px;
+  position:absolute;
+  top: 62px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+
+
+#left-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 40%;
+  overflow-y: hidden;
+   
+}
+
+@media (min-width: 1020px) {
+#left-bar {
+padding-top: 250px;
+
+  }
+}
+
+#right-bar {
+  position: relative;
+  
+  display: block;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  width: 60%;
+  height: 100%;
+  overflow-y: scroll;
+
+}
+
+.In8{
+width: 100%;
+height: auto;  
+background-color: grey;
+}
+
+
 
 .WORKS {
   font-size: 41.721px;
@@ -506,7 +787,7 @@ background-image: url("../images/FQ.png");
 }
 
 .B1{
-background-image: url("../images/block.jpg");  
+background-image: url("../images/nebula.jpg");  
 background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -517,6 +798,35 @@ font-size: 37px;
 color: white;
 
 }
+
+.intro-text{
+color: #ffffff;
+font-size: 30px;
+
+}
+
+@media (max-width:440px){
+.intro-text{
+color: #ffffff;
+padding-top: 60px;
+font-size: 20px;
+
+}
+}
+
+
+
+.Alhover{
+font-size: 27px;
+
+}
+
+.Alhover a:hover{
+background-color: black;
+
+}
+
+
 
 .Gmail{
 background-image: url("../images/envelope.png");  
@@ -584,6 +894,8 @@ color: wheat;
 
 .sidebar{
 position: fixed;
+top: 10px;
+left: 20px;
 width: 7%;
 height: 100%;
 background-color: transparent;
@@ -599,6 +911,13 @@ height: 100%;
    font-size: 16px; 
   }
 } 
+
+@media (max-width:430px){
+.sidebar{
+top: 1px;
+}   
+}
+
 
 @media (max-width:416px){
 .Entry{
@@ -695,6 +1014,8 @@ top: 8.002px;
   }
 }  
 
+
+
 .Rotate{
 /* Safari */
 -webkit-transform: rotate(90deg);
@@ -712,35 +1033,54 @@ top: 8.002px;
 filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
 }
 
-::-webkit-scrollbar {
-    width: 12px;
-}
- 
 
-::-webkit-scrollbar-track {
-    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
-    -webkit-border-radius: 10px;
-    border-radius: 10px;
-}
- 
-
-::-webkit-scrollbar-thumb {
-    -webkit-border-radius: 10px;
-    border-radius: 10px;
-    background: rgb(77, 77, 77); 
-    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
-}
-::-webkit-scrollbar-thumb:window-inactive {
-  background: rgba(0,0,255,0.1); 
+#footerwrap {
+  background: #2b2b2b;
+  margin-top: 0px;
+    padding: 20px;
+  border-bottom: 1px solid #ddd;
+  text-align: center;
+  width:80%;
+  display:block;
+  margin:auto;
 }
 
-@media (max-width:1050px){
+
+
+
+    #footerwrap h4 {
+        color: white;
+    }
+
     ::-webkit-scrollbar {
-    display: none;
-}
-  }
+        width: 12px;
+    }
 
-  }
+
+    ::-webkit-scrollbar-track {
+        -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+        -webkit-border-radius: 10px;
+        border-radius: 10px;
+    }
+
+
+    ::-webkit-scrollbar-thumb {
+        -webkit-border-radius: 10px;
+        border-radius: 10px;
+        background: rgb(77, 77, 77);
+        -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5);
+    }
+
+        ::-webkit-scrollbar-thumb:window-inactive {
+            background: rgba(0,0,255,0.1);
+        }
+
+    @media (max-width:1050px) {
+        ::-webkit-scrollbar {
+            display: none;
+        }
+    }
+}
 
   .transition {
     -webkit-transform: scale(1.6); 
@@ -754,3 +1094,36 @@ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
   -o-transition: all .4s ease-in-out;
   -ms-transition: all .4s ease-in-out;
 }
+
+/* Works page */
+
+.workali{
+text-align: center;
+
+}
+@media (min-width : 1224px) {
+
+.YB {
+width: auto;
+height: 80%;
+display: block;
+margin: auto;
+}
+}
+
+
+@media (max-width:480px){
+
+.YB{
+width: 80%;
+height: auto;
+display: block;
+margin: auto;  
+}
+
+}
+
+
+/* JFK */
+
+@media ()

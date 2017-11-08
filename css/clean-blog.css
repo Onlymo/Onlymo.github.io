@@ -586,6 +586,32 @@ color: white;
   }
 }
 
+.ITname{
+color: white;
+-webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 10s; /* Safari 4.0 - 8.0 */
+    animation-name: example;
+    animation-duration: 14s;
+      animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes example {
+0%   {color: #4d79ff;}
+25%   {color: #ffb3b3;}
+50%   {color: #FFD700}
+100%   {color: #00ff00}
+
+}
+
+@keyframes example {
+    0%    {color: #4d79ff;}
+    25%    {color: #ffb3b3;}
+    50%    {color: #FFD700}
+    100%    {color: #00ff00}
+
+}
+
+
 
 .button{
 background-color: #4CAF50; /* Green */

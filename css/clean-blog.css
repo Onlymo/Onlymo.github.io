@@ -596,6 +596,7 @@ color: white;
 }
 
 .ITname{
+font-family: Lora;    
 color: white;
 -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
     -webkit-animation-duration: 10s; /* Safari 4.0 - 8.0 */

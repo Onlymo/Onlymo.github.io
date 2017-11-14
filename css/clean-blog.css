@@ -941,6 +941,7 @@ color: white;
 }
 
 .S1{
+font-family: Roboto Mono;    
 text-align: center;
 color: #800000;
 }
@@ -988,6 +989,10 @@ color: wheat;
 .Brand{
 text-align: left;
 color: wheat;
+}
+
+.QS{
+font-family: Quicksand;
 }
 
 .sidebar{

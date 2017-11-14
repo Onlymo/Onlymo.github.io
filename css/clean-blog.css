@@ -1229,9 +1229,10 @@ color: white;
 /* Works page */
 
 .workali{
+font-family: Roboto Mono;      
 text-align: center;
-
 }
+
 @media (min-width : 1224px) {
 
 .YB {

@@ -812,6 +812,7 @@ color: #ffe6e6;
 
 .Links:hover {
 color:#ff3333;  
+
 }
 
 .RoMOSES {
@@ -847,7 +848,7 @@ color: #c9cdc5;
 color: #275970;
 }
 
-    .FrLinks:hover{
+    .FrLinks:hover
     color: #275970;  
     }
 
@@ -898,6 +899,7 @@ color:#0f6bda;
 .container{
 width: 100%;
 display: block;
+
 
 }
 

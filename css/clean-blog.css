@@ -106,21 +106,26 @@ div#load_screen > div#loading{
   font-size: 17px;
 }
 
-.topnav a:hover {
-  background-color: black;
-  color: white;
-}
+    .topnav a:hover {
+   text-decoration: underline;
 
-.activeM {
-  background-color: #e60000;
+
+    }
+
+.activeM {    
   color: white;
   float: left;
 }
 
-.activeM a:hover {
-background-color: #ff3333;
-color: black;
-}
+    .activeM a:hover{
+
+        text-decoration: line-through;
+
+        color: black;
+
+
+
+    }
 
 
 .topnav .icon {
@@ -148,6 +153,49 @@ color: black;
     text-align: left;
   }
 
+}
+
+a > .w1nav{
+position: relative;
+text-decoration: none;
+
+}
+
+a >.w1nav:before {
+ content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #000;
+  visibility: hidden;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;  
+}
+
+a > .w1nav:hover:before {
+   visibility: visible; 
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+}
+
+    .Instagram {
+  font-size: 24px;
+  font-family: "Lora";
+  color: rgb(255, 255, 255);
+  font-style: italic;
+
+  text-align: left;
+  -moz-transform: matrix( 0,-1,1,0,0,0);
+  -webkit-transform: matrix( 0,-1,1,0,0,0);
+  -ms-transform: matrix( 0,-1,1,0,0,0);
+  position: absolute;
+  left: 500px;
+  top: 44.833px;
+  z-index: 11;
 }
 
 
@@ -578,6 +626,15 @@ color:  #ffdb1a;
 
 .YokebodyGold:hover{
 color:  #ffe44d; 
+}
+
+.Mfxhd{
+ color: #C0C0C0;  
+}
+
+.Mfxhd:hover{
+color: #A9A9A9;
+
 }
 
 
@@ -1430,3 +1487,17 @@ width: 100%;
     .parralax{
           background-attachment: scroll;
     }
+
+.Lines {
+  background-color: rgb(235, 235, 235);
+  opacity: 0.502;
+  position: absolute;
+  left: 574px;
+  top: 0px;
+  width: 1px;
+  height: 1080px;
+  z-index: 17;
+}
+
+/* page translate */
+

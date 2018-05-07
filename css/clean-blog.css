@@ -10,6 +10,7 @@ body,html {
   overflow-x: hidden;
   width: auto;
   height: 100%;
+  background-color: #ffffff; 
 }
 
 p {
@@ -33,7 +34,7 @@ a {
 a:hover,
 a:focus {
   color:#08d3aa;
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 blockquote {
@@ -93,13 +94,13 @@ div#load_screen > div#loading{
 
 .topnav {
   overflow: hidden;
-  background-color: #333;
+  background-color: transparent;
 }
 
 .topnav a {
  
   display: block;
-  color: #f2f2f2;
+  color: black;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -112,9 +113,48 @@ div#load_screen > div#loading{
 
     }
 
-.activeM {    
-  color: white;
-  float: left;
+@media (min-width: 1200px){ .activeM {
+ position: absolute;
+  left: 81.984px;
+  top: 33.246px;
+  z-index: 15;
+}
+@media (min-width: 1200px){ .activeN {
+  position: absolute;
+  left: 1250px;
+  top: 33.246px;
+  z-index: 17;
+}
+
+@media (min-width: 1200px){ .activeB {
+  position: absolute;
+  left: 1350px;
+  top: 33.246px;
+  z-index: 17;
+}
+
+@media (min-width: 1200px){ .activeV {
+  position: absolute;
+  left: 81.984px;
+  top: 383.246px;
+  z-index: 17;
+  -moz-transform: matrix( 0,1,-1,0,0,0);
+  -webkit-transform: matrix( 0,1,-1,0,0,0);
+  -ms-transform: matrix( 0,1,-1,0,0,0);  
+
+}
+
+@media (min-width: 1200px){ .activeG {
+  position: absolute;
+  left: 89.984px;
+  top: 513.246px;
+  z-index: 17;
+  -moz-transform: matrix( 0,1,-1,0,0,0);
+  -webkit-transform: matrix( 0,1,-1,0,0,0);
+  -ms-transform: matrix( 0,1,-1,0,0,0);  
+
+}
+  
 }
 
     .activeM a:hover{
@@ -126,6 +166,20 @@ div#load_screen > div#loading{
 
 
     }
+
+@media (min-width: 1200px){ .Sh1 {
+  background-color: rgb(0, 0, 0);
+  opacity: 0.6;
+  position: absolute;
+  left:135.984px;
+  top: 470px;
+  width: 1px;
+  height: 20px;
+  z-index: 3;
+}
+
+
+
 
 
 .topnav .icon {
@@ -197,6 +251,18 @@ a > .w1nav:hover:before {
   top: 44.833px;
   z-index: 11;
 }
+
+.Layer_7 {
+  background-image: url("Layer 7.png");
+  position: absolute;
+  left: 341px;
+  top: 78px;
+  width: 442px;
+  height: 612px;
+  z-index: 14;
+}
+
+
 
 
 
@@ -746,11 +812,11 @@ color: #990000;
 }
 
 .intro {
-  background-image: url(http://robotmafia.com/wp-content/uploads/2012/04/eric_zelinski3.jpg);
+    background-color: white;
     width: 100%;
     height: 100%;
     display: table;
-    no-repeatbottom center scroll;background-color: black;
+    
      background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -1205,6 +1271,7 @@ color: wheat;
 }
 
 .QS{
+color:#FF5A5F;  
 font-family: Quicksand;
 }
 
@@ -1500,4 +1567,36 @@ width: 100%;
 }
 
 /* page translate */
+
+. {
+  background-image: url("Layer 1.png");
+  position: absolute;
+  left: 0px;
+  top: 69px;
+  width: 454px;
+  height: 316px;
+  z-index: 28;
+}
+
+@media (max-width : 1024px) {
+.pic2 {
+  background-image: url("Layer 1.png");
+  position: absolute;
+  left: 0px;
+  top: 69px;
+  width: 454px;
+  height: 316px;
+  z-index: 28;
+  }
+}
+
+.divwork{
+text-align: justify;
+
+}
+
+.divwork{
+content: '';
+display: inline-block;
+}
 
